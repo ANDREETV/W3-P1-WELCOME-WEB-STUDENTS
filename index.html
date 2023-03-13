@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- choose one -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="color-page">
+    <!-- HEADER -->
+    <header class="bg-white"> 
+        <!-- NAV -->
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="assets/assets/logo.svg"  alt="logo-sito" ></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Browse
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Loandings
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Pages
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Accounts
+                        </a>
+                        <ul class="dropdown-menu mb-3">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item " href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                  <div class="login">
+                    <a class="nav-link me-3 box campana" href="#" role="button" >
+                      <i class="ri-notification-2-line fs-4"></i>
+                    </a>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img src="assets/assets/avatar-1.jpg" alt="">
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-xxl-end dropdown-menu-lg-end dropdown-menu-sm-end">
+                        <li>
+                          <div class="dropdown-item nav-link ms-4 mt-3 d-flex" href="#">
+                            <img src="assets/assets/avatar-1.jpg" alt="">
+                            <div class="lh-sm mx-4">
+                              <p class="m-0">Annette Black</p>
+                              <p class="m-0 text-secondary">annette@geeksui.com</p>
+                            </div>
+                          </div>
+                        </li>
+                        <li><hr class="dropdown-divider"></li>
+
+                        <li><a class="dropdown-item fs-5 d-flex align-items-center" href="#"> <img src="assets/assets/user.svg" class=" me-3"> <p class="m-0">Profile</p> </a></li>
+                        <li><a class="dropdown-item fs-5 d-flex align-items-center" href="#"> <img src="assets/assets/star.svg" class=" me-3"> <p class="m-0">Subscription</p> </a></li>
+                        <li><a class="dropdown-item fs-5 d-flex align-items-center" href="#"> <img src="assets/assets/settings.svg" class=" me-3"> <p class="m-0">Settings</p> </a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item fs-5 d-flex align-items-center pb-3" href="#"> <img src="assets/assets/power.svg" class=" me-3"> <p class="m-0">Sing Out</p> </a></li>
+                      </ul>
+                    </li>
+                  </div>
+              </div>
+            </div>
+          </nav>
+
+          
+    </header>
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- JUMBOTRON -->
+        <section class="color-jumbotron">
+                  <div class="container">
+                    <div class="row ">
+                        <div class="col-lg-6 col-xl-6 colonna-sx ">
+                          <!-- <div class="jumbotron mt-5"> -->
+                            <h1 class="display-4 text-white mb-0">Welcome Web Students!</h1>
+                            <p class="lead fs-3 text-white m-0">Hand-picked Instructor and expertly crafted <br> courses, 
+                                            designed for the modern students and <br> entrepreneur.
+                            </p>
+                            <p class="lead mb-0 bottoni-jumb">
+                              <button type="button" class="text-white btn btn-success btn-lg bottone-jumb">Browse Courses</button>
+                              <button type="button" class="btn btn-light btn-lg bottone-jumb">Are You Instructor</button>
+                            </p>                         
+                        </div>
+                        <div class="col-lg-6 col-xl-6 sfondo-jumbotron " >
+                          
+                        </div>
+                        
+                    </div>
+                  </div>
+        </section>
+
+        <!-- INFO -->
+        <section>
+          <nav class="navbar bg-body-tertiary border">
+            <div class="container py-2 justify-content-center w-100">
+              <div class="row w-100 g-4">
+                <div class="col-lg-4">
+                  <div class="riga">
+                      <a class="box box-color navbar-brand video" href="#">
+                        <img src="assets/assets/video.svg" alt="foto-vido">
+                      </a>
+                      <div class="d-flex flex-column">
+                        <p class="m-0 fs-6 fw-bold">30,000 online course</p>
+                        <p class="m-0 fs-6 text-secondary">Enjoya variety of fresh topics</p>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="riga">
+                      <a class="box box-color navbar-brand video" href="#">
+                        <img src="assets/assets/users.svg" alt="foto-vido">
+                      </a>
+                      <div class="d-flex flex-column">
+                        <p class="m-0 fs-6 fw-bold">Expert instruction</p>
+                        <p class="m-0 fs-6 text-secondary">Find the right instructor for you</p>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="riga">
+                      <a class="box box-color navbar-brand video" href="#">
+                        <img src="assets/assets/clock.svg" alt="foto-vido">
+                      </a>
+                      <div class="d-flex flex-column">
+                        <p class="m-0 fs-6 fw-bold">Lifetime access</p>
+                        <p class="m-0 fs-6 text-secondary">Learn on you schedule</p>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </section>
+
+        <!-- Recommended to you -->
+        <section>
+          <nav class="navbar mt-5">
+            <div class="container">
+              <span class="navbar-text fs-3 fw-bold text-black">
+                Recommended to you
+              </span>
+            </div>
+          </nav>
+
+          <div class="container-fluid">
+            <div class="row">
+              <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="container">
+                      <div class="row g-2 flex-nowrap">
+                        <div class="col-8 col-sm-6 col-md-8 col-xl-3">
+                          <div class="card">
+                            <img src="assets/assets/course-gatsby.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">GraphQL: introduction to graphQL for beginners</h5>
+                              <div class="d-flex align-items-center">
+                                  <img src="assets/assets/clock2.svg" alt="foto-vido">
+                                  <p class="m-0 fs-5 text-secondary font-piccolo ms-1">2h 40m</p>
+                                  <img class="ms-3" src="assets/assets/bar-chart.svg" alt="foto-vido">
+                                  <p class="m-0 fs-5 text-secondary font-piccolo ms-1">Advance</p>
+                              </div>
+                              <div class="d-flex flex-column mt-3">
+                                  <div class="d-flex align-items-center ">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <p class="m-0 fs-5 ms-1 colore-star">2.5</p>
+                                    <p class="m-0 fs-5 text-secondary ms-1">(1,500)</p>
+                                  </div>
+                              </div>
+                              <div class="d-flex align-items-center">
+                                <p class="m-0 mt-3 fs-4 ms-1 fw-bold colore-prezzo">$500</p>
+                                <p class="m-0 mt-3 fs-5 ms-1 text-secondary text-decoration-line-through">$600</p>
+                              </div>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item py-3 px-3 d-flex align-items-center justify-content-between">                      
+                                <a class="nav-link nav-link-2 d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="assets/assets/avatar-5.jpg" alt="">
+                                <p class="m-0 m-3 p-0 fs-6 fw-normal  text-secondary">Brooklyn Simmons</p>
+                                </a>
+                                <i class="fa-regular fs-5 fa-bookmark text-secondary"></i>                                
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-8 col-sm-6 col-md-8 col-xl-3 ">
+                          <div class="card">
+                            <img src="assets/assets/course-javascript.jpg" class="card-img-top" alt="fot-js">
+                            <div class="card-body">
+                              <h5 class="card-title">A Complete Beginner's Guide to JavaScript</h5>
+                              <div class="d-flex align-items-center">
+                                  <img src="assets/assets/clock2.svg" alt="foto-vido">
+                                  <p class="m-0 fs-5 text-secondary ms-1">4h 10m</p>
+                                  <img class="ms-3" src="assets/assets/bar-chart.svg" alt="foto-vido">
+                                  <p class="m-0 fs-5 text-secondary ms-1">Advance</p>
+                              </div>
+                              <div class="d-flex flex-column mt-3">
+                                  <div class="d-flex align-items-center ">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <p class="m-0 fs-5 ms-1 colore-star">3.5</p>
+                                    <p class="m-0 fs-5 text-secondary ms-1">(7,500)</p>
+                                  </div>
+                              </div>
+                              <div class="d-flex align-items-center">
+                                <p class="m-0 mt-3 fs-4 ms-1 fw-bold colore-prezzo">$700</p>
+                                <p class="m-0 mt-3 fs-5 ms-1 text-secondary text-decoration-line-through">$850</p>
+                              </div>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item py-3 px-3 d-flex align-items-center justify-content-between">                      
+                                <a class="nav-link nav-link-2 d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="assets/assets/avatar-1.jpg" alt="">
+                                <p class="m-0 m-3 p-0 fs-6 fw-normal  text-secondary">Jenny Wilson</p>
+                                </a>
+                                <i class="fa-regular fa-bookmark text-secondary"></i>                                
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-8 col-sm-6 col-md-8 col-xl-3 ">
+                          <div class="card">
+                            <img src="assets/assets/course-node.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Beginning Node.js, Express & MonogoDB Development</h5>
+                              <div class="d-flex align-items-center">
+                                  <img src="assets/assets/clock2.svg" alt="foto-vido">
+                                  <p class="m-0 fs-5 text-secondary ms-1">2h 00m</p>
+                                  <img class="ms-3" src="assets/assets/bar-chart.svg" alt="foto-vido">
+                                  <p class="m-0 text-secondary fs-6 ms-1">Intermediate</p>
+                              </div>
+                              <div class="d-flex flex-column mt-3">
+                                  <div class="d-flex align-items-center ">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <p class="m-0 fs-5 ms-1 colore-star">4.0</p>
+                                    <p class="m-0 fs-5 text-secondary ms-1">(15,700)</p>
+                                  </div>
+                              </div>
+                              <div class="d-flex align-items-center">
+                                <p class="m-0 mt-3 fs-4 ms-1 fw-bold colore-prezzo">$800</p>
+                                <p class="m-0 mt-3 fs-5 ms-1 text-secondary text-decoration-line-through">$950</p>
+                              </div>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item py-3 px-3 d-flex align-items-center justify-content-between">                      
+                                <a class="nav-link nav-link-2 d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="assets/assets/avatar-3.jpg" alt="">
+                                <p class="m-0 m-3 p-0 fs-6 fw-normal  text-secondary">Sina Ray</p>
+                                </a>
+                                <i class="fa-regular fa-bookmark text-secondary"></i>                                
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-8 col-sm-6 col-md-8 col-xl-3 ">
+                          <div class="card">
+                            <img src="assets/assets/course-laravel.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Laravel: The Ultimate Beginners Guide to Learn</h5>
+                              <div class="d-flex align-items-center">
+                                  <img src="assets/assets/clock2.svg" alt="foto-vido">
+                                  <p class="m-0 fs-5 text-secondary ms-1">1h 00m</p>
+                                  <img class="ms-3" src="assets/assets/bar-chart.svg" alt="foto-vido">
+                                  <p class="m-0 fs-6 text-secondary ms-1">Beginner</p>
+                              </div>
+                              <div class="d-flex flex-column mt-3">
+                                  <div class="d-flex align-items-center ">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-star"></i>
+                                    <p class="m-0 fs-5 ms-1 colore-star">4.5</p>
+                                    <p class="m-0 fs-5 text-secondary ms-1">(2,500)</p>
+                                  </div>
+                              </div>
+                              <div class="d-flex align-items-center">
+                                <p class="m-0 mt-3 fs-4 ms-1 fw-bold colore-prezzo">$170</p>
+                                <p class="m-0 mt-3 fs-5 ms-1 text-secondary text-decoration-line-through">$220</p>
+                              </div>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item py-3 px-3 d-flex align-items-center justify-content-between">                      
+                                <a class="nav-link nav-link-2 d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="assets/assets/avatar-7.jpg" alt="">
+                                <p class="m-0 m-3 p-0 fs-6 fw-normal  text-secondary">Sobo Rikhan</p>
+                                </a>
+                                <i class="fa-regular fa-bookmark text-secondary"></i>                                
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <div class="carousel-item">
+                    <div class="container">
+                      <div class="row flex-nowrap">
+                        <div class="col-8 col-sm-6 col-md-8 col-xl-3 ">
+                          <div class="card">
+                            <img src="assets/assets/course-gatsby.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">GraphQL: introduction to graphQL for beginners</h5>
+                              <div class="d-flex align-items-center">
+                                  <img src="assets/assets/clock2.svg" alt="foto-vido">
+                                  <p class="m-0 fs-5 text-secondary ms-1">2h 40m</p>
+                                  <img class="ms-3" src="assets/assets/bar-chart.svg" alt="foto-vido">
+                                  <p class="m-0 fs-5 text-secondary ms-1">2h 40m</p>
+                              </div>
+                              <div class="d-flex flex-column mt-3">
+                                  <div class="d-flex align-items-center ">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <p class="m-0 fs-5 ms-1 colore-star">2.5</p>
+                                    <p class="m-0 fs-5 text-secondary ms-1">(77,5000)</p>
+                                  </div>
+                              </div>
+                              <div class="d-flex align-items-center">
+                                <p class="m-0 mt-3 fs-4 ms-1 fw-bold colore-prezzo">$500</p>
+                                <p class="m-0 mt-3 fs-5 ms-1 text-secondary text-decoration-line-through">$600</p>
+                              </div>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">A third item</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-8 col-sm-6 col-md-8 col-xl-3 ">
+                          <div class="card">
+                            <img src="assets/assets/course-gatsby.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">GraphQL: introduction to graphQL for beginners</h5>
+                              <div class="d-flex align-items-center">
+                                  <img src="assets/assets/clock2.svg" alt="foto-vido">
+                                  <p class="m-0 fs-5 text-secondary ms-1">2h 40m</p>
+                                  <img class="ms-3" src="assets/assets/bar-chart.svg" alt="foto-vido">
+                                  <p class="m-0 fs-5 text-secondary ms-1">2h 40m</p>
+                              </div>
+                              <div class="d-flex flex-column mt-3">
+                                  <div class="d-flex align-items-center ">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <p class="m-0 fs-5 ms-1 colore-star">2.5</p>
+                                    <p class="m-0 fs-5 text-secondary ms-1">(77,5000)</p>
+                                  </div>
+                              </div>
+                              <div class="d-flex align-items-center">
+                                <p class="m-0 mt-3 fs-4 ms-1 fw-bold colore-prezzo">$500</p>
+                                <p class="m-0 mt-3 fs-5 ms-1 text-secondary text-decoration-line-through">$600</p>
+                              </div>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">A third item</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-8 col-sm-6 col-md-8 col-xl-3 ">
+                          <div class="card">
+                            <img src="assets/assets/course-gatsby.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">GraphQL: introduction to graphQL for beginners</h5>
+                              <div class="d-flex align-items-center">
+                                  <img src="assets/assets/clock2.svg" alt="foto-vido">
+                                  <p class="m-0 fs-5 text-secondary ms-1">2h 40m</p>
+                                  <img class="ms-3" src="assets/assets/bar-chart.svg" alt="foto-vido">
+                                  <p class="m-0 fs-5 text-secondary ms-1">2h 40m</p>
+                              </div>
+                              <div class="d-flex flex-column mt-3">
+                                  <div class="d-flex align-items-center ">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <p class="m-0 fs-5 ms-1 colore-star">2.5</p>
+                                    <p class="m-0 fs-5 text-secondary ms-1">(77,5000)</p>
+                                  </div>
+                              </div>
+                              <div class="d-flex align-items-center">
+                                <p class="m-0 mt-3 fs-4 ms-1 fw-bold colore-prezzo">$500</p>
+                                <p class="m-0 mt-3 fs-5 ms-1 text-secondary text-decoration-line-through">$600</p>
+                              </div>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">A third item</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-8 col-sm-6 col-md-8 col-xl-3 ">
+                          <div class="card">
+                            <img src="assets/assets/course-gatsby.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">GraphQL: introduction to graphQL for beginners</h5>
+                              <div class="d-flex align-items-center">
+                                  <img src="assets/assets/clock2.svg" alt="foto-vido">
+                                  <p class="m-0 fs-5 text-secondary ms-1">2h 40m</p>
+                                  <img class="ms-3" src="assets/assets/bar-chart.svg" alt="foto-vido">
+                                  <p class="m-0 fs-5 text-secondary ms-1">2h 40m</p>
+                              </div>
+                              <div class="d-flex flex-column mt-3">
+                                  <div class="d-flex align-items-center ">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <p class="m-0 fs-5 ms-1 colore-star">2.5</p>
+                                    <p class="m-0 fs-5 text-secondary ms-1">(77,5000)</p>
+                                  </div>
+                              </div>
+                              <div class="d-flex align-items-center">
+                                <p class="m-0 mt-3 fs-4 ms-1 fw-bold colore-prezzo">$500</p>
+                                <p class="m-0 mt-3 fs-5 ms-1 text-secondary text-decoration-line-through">$600</p>
+                              </div>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">A third item</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div> -->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          
+           
+          
+        </section>
+
+        <!-- MOST POPULAR -->
+        <section>
+          <nav class="navbar mt-5">
+            <div class="container">
+              <span class="navbar-text fs-3 fw-bold text-black">
+                Most Popular
+              </span>
+            </div>
+          </nav>
+
+          <div class="container-fluid">
+            <div class="row">
+              <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="container">
+                      <div class="row g-2 flex-nowrap">
+                        <div class="col-8 col-sm-6 col-md-8 col-xl-3">
+                          <div class="card">
+                            <img src="assets/assets/course-html.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">HTML Full Course - Build a Website Tutorial</h5>
+                              <div class="d-flex align-items-center">
+                                  <img src="assets/assets/clock2.svg" alt="foto-vido">
+                                  <p class="m-0 fs-5 text-secondary font-piccolo ms-1">3h 16m</p>
+                                  <img class="ms-3" src="assets/assets/bar-chart.svg" alt="foto-vido">
+                                  <p class="m-0 fs-5 text-secondary font-piccolo ms-1">Beginner</p>
+                              </div>
+                              <div class="d-flex flex-column mt-3">
+                                  <div class="d-flex align-items-center ">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <p class="m-0 fs-5 ms-1 colore-star">3.0</p>
+                                    <p class="m-0 fs-5 text-secondary ms-1">(1,600)</p>
+                                  </div>
+                              </div>
+                              <div class="d-flex align-items-center">
+                                <p class="m-0 mt-3 fs-4 ms-1 fw-bold colore-prezzo">$550</p>
+                                <p class="m-0 mt-3 fs-5 ms-1 text-secondary text-decoration-line-through">$700</p>
+                              </div>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item py-3 px-3 d-flex align-items-center justify-content-between">                      
+                                <a class="nav-link nav-link-2 d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="assets/assets/avatar-4.jpg" alt="">
+                                <p class="m-0 m-3 p-0 fs-6 fw-normal  text-secondary">Miston Wilson</p>
+                                </a>
+                                <i class="fa-regular fs-5 fa-bookmark text-secondary"></i>                                
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-8 col-sm-6 col-md-8 col-xl-3 ">
+                          <div class="card">
+                            <img src="assets/assets/course-javascript.jpg" class="card-img-top" alt="fot-js">
+                            <div class="card-body">
+                              <h5 class="card-title">A Complete Beginner's Guide to JavaScript</h5>
+                              <div class="d-flex align-items-center">
+                                  <img src="assets/assets/clock2.svg" alt="foto-vido">
+                                  <p class="m-0 fs-5 text-secondary ms-1">4h 10m</p>
+                                  <img class="ms-3" src="assets/assets/bar-chart.svg" alt="foto-vido">
+                                  <p class="m-0 fs-5 text-secondary ms-1">Advance</p>
+                              </div>
+                              <div class="d-flex flex-column mt-3">
+                                  <div class="d-flex align-items-center ">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <p class="m-0 fs-5 ms-1 colore-star">3.5</p>
+                                    <p class="m-0 fs-5 text-secondary ms-1">(7,500)</p>
+                                  </div>
+                              </div>
+                              <div class="d-flex align-items-center">
+                                <p class="m-0 mt-3 fs-4 ms-1 fw-bold colore-prezzo">$700</p>
+                                <p class="m-0 mt-3 fs-5 ms-1 text-secondary text-decoration-line-through">$850</p>
+                              </div>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item py-3 px-3 d-flex align-items-center justify-content-between">                      
+                                <a class="nav-link nav-link-2 d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="assets/assets/avatar-1.jpg" alt="">
+                                <p class="m-0 m-3 p-0 fs-6 fw-normal  text-secondary">Jenny Wilson</p>
+                                </a>
+                                <i class="fa-regular fa-bookmark text-secondary"></i>                                
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-8 col-sm-6 col-md-8 col-xl-3 ">
+                          <div class="card">
+                            <img src="assets/assets/course-node.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Beginning Node.js, Express & MonogoDB Development</h5>
+                              <div class="d-flex align-items-center">
+                                  <img src="assets/assets/clock2.svg" alt="foto-vido">
+                                  <p class="m-0 fs-5 text-secondary ms-1">2h 00m</p>
+                                  <img class="ms-3" src="assets/assets/bar-chart.svg" alt="foto-vido">
+                                  <p class="m-0 text-secondary fs-6 ms-1">Intermediate</p>
+                              </div>
+                              <div class="d-flex flex-column mt-3">
+                                  <div class="d-flex align-items-center ">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <p class="m-0 fs-5 ms-1 colore-star">4.0</p>
+                                    <p class="m-0 fs-5 text-secondary ms-1">(15,700)</p>
+                                  </div>
+                              </div>
+                              <div class="d-flex align-items-center">
+                                <p class="m-0 mt-3 fs-4 ms-1 fw-bold colore-prezzo">$800</p>
+                                <p class="m-0 mt-3 fs-5 ms-1 text-secondary text-decoration-line-through">$950</p>
+                              </div>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item py-3 px-3 d-flex align-items-center justify-content-between">                      
+                                <a class="nav-link nav-link-2 d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="assets/assets/avatar-3.jpg" alt="">
+                                <p class="m-0 m-3 p-0 fs-6 fw-normal  text-secondary">Sina Ray</p>
+                                </a>
+                                <i class="fa-regular fa-bookmark text-secondary"></i>                                
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-8 col-sm-6 col-md-8 col-xl-3 ">
+                          <div class="card">
+                            <img src="assets/assets/course-laravel.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">Laravel: The Ultimate Beginners Guide to Learn</h5>
+                              <div class="d-flex align-items-center">
+                                  <img src="assets/assets/clock2.svg" alt="foto-vido">
+                                  <p class="m-0 fs-5 text-secondary ms-1">1h 00m</p>
+                                  <img class="ms-3" src="assets/assets/bar-chart.svg" alt="foto-vido">
+                                  <p class="m-0 fs-6 text-secondary ms-1">Beginner</p>
+                              </div>
+                              <div class="d-flex flex-column mt-3">
+                                  <div class="d-flex align-items-center ">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-star"></i>
+                                    <p class="m-0 fs-5 ms-1 colore-star">4.5</p>
+                                    <p class="m-0 fs-5 text-secondary ms-1">(2,500)</p>
+                                  </div>
+                              </div>
+                              <div class="d-flex align-items-center">
+                                <p class="m-0 mt-3 fs-4 ms-1 fw-bold colore-prezzo">$170</p>
+                                <p class="m-0 mt-3 fs-5 ms-1 text-secondary text-decoration-line-through">$220</p>
+                              </div>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item py-3 px-3 d-flex align-items-center justify-content-between">                      
+                                <a class="nav-link nav-link-2 d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="assets/assets/avatar-7.jpg" alt="">
+                                <p class="m-0 m-3 p-0 fs-6 fw-normal  text-secondary">Sobo Rikhan</p>
+                                </a>
+                                <i class="fa-regular fa-bookmark text-secondary"></i>                                
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <div class="carousel-item">
+                    <div class="container">
+                      <div class="row flex-nowrap">
+                        <div class="col-8 col-sm-6 col-md-8 col-xl-3 ">
+                          <div class="card">
+                            <img src="assets/assets/course-gatsby.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">GraphQL: introduction to graphQL for beginners</h5>
+                              <div class="d-flex align-items-center">
+                                  <img src="assets/assets/clock2.svg" alt="foto-vido">
+                                  <p class="m-0 fs-5 text-secondary ms-1">2h 40m</p>
+                                  <img class="ms-3" src="assets/assets/bar-chart.svg" alt="foto-vido">
+                                  <p class="m-0 fs-5 text-secondary ms-1">2h 40m</p>
+                              </div>
+                              <div class="d-flex flex-column mt-3">
+                                  <div class="d-flex align-items-center ">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <p class="m-0 fs-5 ms-1 colore-star">2.5</p>
+                                    <p class="m-0 fs-5 text-secondary ms-1">(77,5000)</p>
+                                  </div>
+                              </div>
+                              <div class="d-flex align-items-center">
+                                <p class="m-0 mt-3 fs-4 ms-1 fw-bold colore-prezzo">$500</p>
+                                <p class="m-0 mt-3 fs-5 ms-1 text-secondary text-decoration-line-through">$600</p>
+                              </div>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">A third item</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-8 col-sm-6 col-md-8 col-xl-3 ">
+                          <div class="card">
+                            <img src="assets/assets/course-gatsby.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">GraphQL: introduction to graphQL for beginners</h5>
+                              <div class="d-flex align-items-center">
+                                  <img src="assets/assets/clock2.svg" alt="foto-vido">
+                                  <p class="m-0 fs-5 text-secondary ms-1">2h 40m</p>
+                                  <img class="ms-3" src="assets/assets/bar-chart.svg" alt="foto-vido">
+                                  <p class="m-0 fs-5 text-secondary ms-1">2h 40m</p>
+                              </div>
+                              <div class="d-flex flex-column mt-3">
+                                  <div class="d-flex align-items-center ">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <p class="m-0 fs-5 ms-1 colore-star">2.5</p>
+                                    <p class="m-0 fs-5 text-secondary ms-1">(77,5000)</p>
+                                  </div>
+                              </div>
+                              <div class="d-flex align-items-center">
+                                <p class="m-0 mt-3 fs-4 ms-1 fw-bold colore-prezzo">$500</p>
+                                <p class="m-0 mt-3 fs-5 ms-1 text-secondary text-decoration-line-through">$600</p>
+                              </div>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">A third item</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-8 col-sm-6 col-md-8 col-xl-3 ">
+                          <div class="card">
+                            <img src="assets/assets/course-gatsby.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">GraphQL: introduction to graphQL for beginners</h5>
+                              <div class="d-flex align-items-center">
+                                  <img src="assets/assets/clock2.svg" alt="foto-vido">
+                                  <p class="m-0 fs-5 text-secondary ms-1">2h 40m</p>
+                                  <img class="ms-3" src="assets/assets/bar-chart.svg" alt="foto-vido">
+                                  <p class="m-0 fs-5 text-secondary ms-1">2h 40m</p>
+                              </div>
+                              <div class="d-flex flex-column mt-3">
+                                  <div class="d-flex align-items-center ">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <p class="m-0 fs-5 ms-1 colore-star">2.5</p>
+                                    <p class="m-0 fs-5 text-secondary ms-1">(77,5000)</p>
+                                  </div>
+                              </div>
+                              <div class="d-flex align-items-center">
+                                <p class="m-0 mt-3 fs-4 ms-1 fw-bold colore-prezzo">$500</p>
+                                <p class="m-0 mt-3 fs-5 ms-1 text-secondary text-decoration-line-through">$600</p>
+                              </div>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">A third item</li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-8 col-sm-6 col-md-8 col-xl-3 ">
+                          <div class="card">
+                            <img src="assets/assets/course-gatsby.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title">GraphQL: introduction to graphQL for beginners</h5>
+                              <div class="d-flex align-items-center">
+                                  <img src="assets/assets/clock2.svg" alt="foto-vido">
+                                  <p class="m-0 fs-5 text-secondary ms-1">2h 40m</p>
+                                  <img class="ms-3" src="assets/assets/bar-chart.svg" alt="foto-vido">
+                                  <p class="m-0 fs-5 text-secondary ms-1">2h 40m</p>
+                              </div>
+                              <div class="d-flex flex-column mt-3">
+                                  <div class="d-flex align-items-center ">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <p class="m-0 fs-5 ms-1 colore-star">2.5</p>
+                                    <p class="m-0 fs-5 text-secondary ms-1">(77,5000)</p>
+                                  </div>
+                              </div>
+                              <div class="d-flex align-items-center">
+                                <p class="m-0 mt-3 fs-4 ms-1 fw-bold colore-prezzo">$500</p>
+                                <p class="m-0 mt-3 fs-5 ms-1 text-secondary text-decoration-line-through">$600</p>
+                              </div>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">A third item</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div> -->
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- TRENDING -->
+        <section>
+          <section>
+            <nav class="navbar mt-5">
+              <div class="container">
+                <span class="navbar-text fs-3 fw-bold text-black">
+                  Trending
+                </span>
+              </div>
+            </nav>
+  
+            <div class="container-fluid">
+              <div class="row">
+                <div id="carouselExample" class="carousel slide">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <div class="container">
+                        <div class="row g-2 flex-nowrap">
+                          <div class="col-8 col-sm-6 col-md-8 col-xl-3">
+                            <div class="card">
+                              <img src="assets/assets/course-html.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">HTML Full Course - Build a Website Tutorial</h5>
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/assets/clock2.svg" alt="foto-vido">
+                                    <p class="m-0 fs-5 text-secondary font-piccolo ms-1">3h 16m</p>
+                                    <img class="ms-3" src="assets/assets/bar-chart.svg" alt="foto-vido">
+                                    <p class="m-0 fs-5 text-secondary font-piccolo ms-1">Beginner</p>
+                                </div>
+                                <div class="d-flex flex-column mt-3">
+                                    <div class="d-flex align-items-center ">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-regular fa-star"></i>
+                                      <i class="fa-regular fa-star"></i>
+                                      <p class="m-0 fs-5 ms-1 colore-star">3.0</p>
+                                      <p class="m-0 fs-5 text-secondary ms-1">(1,600)</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                  <p class="m-0 mt-3 fs-4 ms-1 fw-bold colore-prezzo">$550</p>
+                                  <p class="m-0 mt-3 fs-5 ms-1 text-secondary text-decoration-line-through">$700</p>
+                                </div>
+                              </div>
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item py-3 px-3 d-flex align-items-center justify-content-between">                      
+                                  <a class="nav-link nav-link-2 d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <img src="assets/assets/avatar-4.jpg" alt="">
+                                  <p class="m-0 m-3 p-0 fs-6 fw-normal  text-secondary">Miston Wilson</p>
+                                  </a>
+                                  <i class="fa-regular fs-5 fa-bookmark text-secondary"></i>                                
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-8 col-sm-6 col-md-8 col-xl-3 ">
+                            <div class="card">
+                              <img src="assets/assets/course-javascript.jpg" class="card-img-top" alt="fot-js">
+                              <div class="card-body">
+                                <h5 class="card-title">A Complete Beginner's Guide to JavaScript</h5>
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/assets/clock2.svg" alt="foto-vido">
+                                    <p class="m-0 fs-5 text-secondary ms-1">4h 10m</p>
+                                    <img class="ms-3" src="assets/assets/bar-chart.svg" alt="foto-vido">
+                                    <p class="m-0 fs-5 text-secondary ms-1">Advance</p>
+                                </div>
+                                <div class="d-flex flex-column mt-3">
+                                    <div class="d-flex align-items-center ">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star-half-stroke fa-star"></i>
+                                      <i class="fa-regular fa-star"></i>
+                                      <p class="m-0 fs-5 ms-1 colore-star">3.5</p>
+                                      <p class="m-0 fs-5 text-secondary ms-1">(7,500)</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                  <p class="m-0 mt-3 fs-4 ms-1 fw-bold colore-prezzo">$700</p>
+                                  <p class="m-0 mt-3 fs-5 ms-1 text-secondary text-decoration-line-through">$850</p>
+                                </div>
+                              </div>
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item py-3 px-3 d-flex align-items-center justify-content-between">                      
+                                  <a class="nav-link nav-link-2 d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <img src="assets/assets/avatar-1.jpg" alt="">
+                                  <p class="m-0 m-3 p-0 fs-6 fw-normal  text-secondary">Jenny Wilson</p>
+                                  </a>
+                                  <i class="fa-regular fa-bookmark text-secondary"></i>                                
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-8 col-sm-6 col-md-8 col-xl-3 ">
+                            <div class="card">
+                              <img src="assets/assets/course-node.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Beginning Node.js, Express & MonogoDB Development</h5>
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/assets/clock2.svg" alt="foto-vido">
+                                    <p class="m-0 fs-5 text-secondary ms-1">2h 00m</p>
+                                    <img class="ms-3" src="assets/assets/bar-chart.svg" alt="foto-vido">
+                                    <p class="m-0 text-secondary fs-6 ms-1">Intermediate</p>
+                                </div>
+                                <div class="d-flex flex-column mt-3">
+                                    <div class="d-flex align-items-center ">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-regular fa-star"></i>
+                                      <p class="m-0 fs-5 ms-1 colore-star">4.0</p>
+                                      <p class="m-0 fs-5 text-secondary ms-1">(15,700)</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                  <p class="m-0 mt-3 fs-4 ms-1 fw-bold colore-prezzo">$800</p>
+                                  <p class="m-0 mt-3 fs-5 ms-1 text-secondary text-decoration-line-through">$950</p>
+                                </div>
+                              </div>
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item py-3 px-3 d-flex align-items-center justify-content-between">                      
+                                  <a class="nav-link nav-link-2 d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <img src="assets/assets/avatar-3.jpg" alt="">
+                                  <p class="m-0 m-3 p-0 fs-6 fw-normal  text-secondary">Sina Ray</p>
+                                  </a>
+                                  <i class="fa-regular fa-bookmark text-secondary"></i>                                
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-8 col-sm-6 col-md-8 col-xl-3 ">
+                            <div class="card">
+                              <img src="assets/assets/course-laravel.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Laravel: The Ultimate Beginners Guide to Learn</h5>
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/assets/clock2.svg" alt="foto-vido">
+                                    <p class="m-0 fs-5 text-secondary ms-1">1h 00m</p>
+                                    <img class="ms-3" src="assets/assets/bar-chart.svg" alt="foto-vido">
+                                    <p class="m-0 fs-6 text-secondary ms-1">Beginner</p>
+                                </div>
+                                <div class="d-flex flex-column mt-3">
+                                    <div class="d-flex align-items-center ">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star-half-stroke fa-star"></i>
+                                      <p class="m-0 fs-5 ms-1 colore-star">4.5</p>
+                                      <p class="m-0 fs-5 text-secondary ms-1">(2,500)</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                  <p class="m-0 mt-3 fs-4 ms-1 fw-bold colore-prezzo">$170</p>
+                                  <p class="m-0 mt-3 fs-5 ms-1 text-secondary text-decoration-line-through">$220</p>
+                                </div>
+                              </div>
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item py-3 px-3 d-flex align-items-center justify-content-between">                      
+                                  <a class="nav-link nav-link-2 d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <img src="assets/assets/avatar-7.jpg" alt="">
+                                  <p class="m-0 m-3 p-0 fs-6 fw-normal  text-secondary">Sobo Rikhan</p>
+                                  </a>
+                                  <i class="fa-regular fa-bookmark text-secondary"></i>                                
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- <div class="carousel-item">
+                      <div class="container">
+                        <div class="row flex-nowrap">
+                          <div class="col-8 col-sm-6 col-md-8 col-xl-3 ">
+                            <div class="card">
+                              <img src="assets/assets/course-gatsby.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">GraphQL: introduction to graphQL for beginners</h5>
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/assets/clock2.svg" alt="foto-vido">
+                                    <p class="m-0 fs-5 text-secondary ms-1">2h 40m</p>
+                                    <img class="ms-3" src="assets/assets/bar-chart.svg" alt="foto-vido">
+                                    <p class="m-0 fs-5 text-secondary ms-1">2h 40m</p>
+                                </div>
+                                <div class="d-flex flex-column mt-3">
+                                    <div class="d-flex align-items-center ">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star-half-stroke fa-star"></i>
+                                      <i class="fa-regular fa-star"></i>
+                                      <i class="fa-regular fa-star"></i>
+                                      <p class="m-0 fs-5 ms-1 colore-star">2.5</p>
+                                      <p class="m-0 fs-5 text-secondary ms-1">(77,5000)</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                  <p class="m-0 mt-3 fs-4 ms-1 fw-bold colore-prezzo">$500</p>
+                                  <p class="m-0 mt-3 fs-5 ms-1 text-secondary text-decoration-line-through">$600</p>
+                                </div>
+                              </div>
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item">A third item</li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-8 col-sm-6 col-md-8 col-xl-3 ">
+                            <div class="card">
+                              <img src="assets/assets/course-gatsby.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">GraphQL: introduction to graphQL for beginners</h5>
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/assets/clock2.svg" alt="foto-vido">
+                                    <p class="m-0 fs-5 text-secondary ms-1">2h 40m</p>
+                                    <img class="ms-3" src="assets/assets/bar-chart.svg" alt="foto-vido">
+                                    <p class="m-0 fs-5 text-secondary ms-1">2h 40m</p>
+                                </div>
+                                <div class="d-flex flex-column mt-3">
+                                    <div class="d-flex align-items-center ">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star-half-stroke fa-star"></i>
+                                      <i class="fa-regular fa-star"></i>
+                                      <i class="fa-regular fa-star"></i>
+                                      <p class="m-0 fs-5 ms-1 colore-star">2.5</p>
+                                      <p class="m-0 fs-5 text-secondary ms-1">(77,5000)</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                  <p class="m-0 mt-3 fs-4 ms-1 fw-bold colore-prezzo">$500</p>
+                                  <p class="m-0 mt-3 fs-5 ms-1 text-secondary text-decoration-line-through">$600</p>
+                                </div>
+                              </div>
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item">A third item</li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-8 col-sm-6 col-md-8 col-xl-3 ">
+                            <div class="card">
+                              <img src="assets/assets/course-gatsby.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">GraphQL: introduction to graphQL for beginners</h5>
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/assets/clock2.svg" alt="foto-vido">
+                                    <p class="m-0 fs-5 text-secondary ms-1">2h 40m</p>
+                                    <img class="ms-3" src="assets/assets/bar-chart.svg" alt="foto-vido">
+                                    <p class="m-0 fs-5 text-secondary ms-1">2h 40m</p>
+                                </div>
+                                <div class="d-flex flex-column mt-3">
+                                    <div class="d-flex align-items-center ">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star-half-stroke fa-star"></i>
+                                      <i class="fa-regular fa-star"></i>
+                                      <i class="fa-regular fa-star"></i>
+                                      <p class="m-0 fs-5 ms-1 colore-star">2.5</p>
+                                      <p class="m-0 fs-5 text-secondary ms-1">(77,5000)</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                  <p class="m-0 mt-3 fs-4 ms-1 fw-bold colore-prezzo">$500</p>
+                                  <p class="m-0 mt-3 fs-5 ms-1 text-secondary text-decoration-line-through">$600</p>
+                                </div>
+                              </div>
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item">A third item</li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="col-8 col-sm-6 col-md-8 col-xl-3 ">
+                            <div class="card">
+                              <img src="assets/assets/course-gatsby.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">GraphQL: introduction to graphQL for beginners</h5>
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/assets/clock2.svg" alt="foto-vido">
+                                    <p class="m-0 fs-5 text-secondary ms-1">2h 40m</p>
+                                    <img class="ms-3" src="assets/assets/bar-chart.svg" alt="foto-vido">
+                                    <p class="m-0 fs-5 text-secondary ms-1">2h 40m</p>
+                                </div>
+                                <div class="d-flex flex-column mt-3">
+                                    <div class="d-flex align-items-center ">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star-half-stroke fa-star"></i>
+                                      <i class="fa-regular fa-star"></i>
+                                      <i class="fa-regular fa-star"></i>
+                                      <p class="m-0 fs-5 ms-1 colore-star">2.5</p>
+                                      <p class="m-0 fs-5 text-secondary ms-1">(77,5000)</p>
+                                    </div>
+                                </div>
+                                <div class="d-flex align-items-center">
+                                  <p class="m-0 mt-3 fs-4 ms-1 fw-bold colore-prezzo">$500</p>
+                                  <p class="m-0 mt-3 fs-5 ms-1 text-secondary text-decoration-line-through">$600</p>
+                                </div>
+                              </div>
+                              <ul class="list-group list-group-flush">
+                                <li class="list-group-item">A third item</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div> -->
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="mt-5">
+      <div class="container container-sm">
+      <hr>
+        <div class="row justify-content-xs-center text-center">
+          <div class="col-sm-6 col-xs-6 col-md-6 col-lg-6 col-xl-6">
+              <div class="d-flex align-items-center">
+                <i class="fa-sharp fa-regular fa-copyright fs-5 text-secondary"></i>
+                <p class="m-0 ms-2 fs-5 text-secondary">2022 Geeks. All Reserved.</p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-xs-6 col-md-6 col-lg-6 col-xl-6">
+              <div class="d-flex justify-content-end">
+                <ul class="d-flex list-unstyled ">
+                  <li class=""><a class="text-decoration-none fs-5 text-secondary" href="">Privacy</a></li>
+                  <li class="ms-5"><a class="text-decoration-none fs-5 text-secondary" href="">Terms</a></li>
+                  <li class="ms-5"><a class="text-decoration-none fs-5 text-secondary" href="">Feedback</a></li>
+                  <li class="ms-5"><a class="text-decoration-none fs-5 text-secondary" href="">Support</a></li>
+                </ul>
+              </div>
+          </div>
+      </div>
+    </footer>
+    <script>
+      feather.replace()
+    </script>
+    <script src="https://kit.fontawesome.com/c7866b2a0b.js" crossorigin="anonymous"></script>
+    <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>

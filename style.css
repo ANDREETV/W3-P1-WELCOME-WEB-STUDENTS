@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;900&display=swap');
+
+
+
+
+    .nav-link{
+        font-weight: 900;
+    }
+
+.color-page{
+    background-color: #F5F4F8; 
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #F5F4F8;
+}
+.box-color{
+    background-color: #F9EEDB;
+}
+.nav-link img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.nav-link-2 img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+
+.nav-item{
+    list-style: none;
+}
+.login{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.campana, .video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.color-jumbotron{
+    background-color: #7153FA;
+    
+}
+
+
+.riga{
+    display: flex;
+    flex-direction: row;
+}
+
+.sfondo-jumbotron{
+    background-image: url('assets/assets/hero-img.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25em;
+}
+
+.logo-profilo{
+    width: 200px;
+}
+
+.fa-star {
+    color: #FFAA46;
+}
+.colore-star{
+    color: #FFAA46;
+    font-size: 3px;
+}
+
+.colore-prezzo{
+    color: #19113C;
+}
+
+/* 
+@media (min-width: 490px) {
+    .bottone-jumb{
+        width: 10em;
+        font-size: 16px;
+    }
+} */
+
+.colonna-sx{
+    padding-top: 40px;
+}
+.bottoni-jumb{
+    margin-top: 20px;
+    
+}
+
+
+@media  (min-width: 992px) and (max-width: 1399px){
+    .colonna-sx{
+        padding-top: 0px;
+    }
+    .bottoni-jumb{
+        margin-top: 7px;
+        
+    }
+
+    .card-title {
+        font-size: 1.2em;
+    }
+}
